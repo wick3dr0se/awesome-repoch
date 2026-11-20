@@ -93,6 +93,7 @@ Optional patches and tools that change the client itself rather than adding to i
 
 - [EpochAuthenticHD](https://github.com/thierbig/EpochAuthenticHD) – upscaled textures, HD models, trees, skyboxes, 4K maps, sounds and music, plus a Cataclysm water patch (`PATCH-W`) and an optional fog mod. MPQs go in `Data/`, icons in `Interface/`; skip the icon pack for more FPS and delete `PATCH-E` for the original character models. Its DXVK section is a separate optional step for Vulkan, not part of the pack.
 - [Patch-N_Epoch-Reborn](https://github.com/Kindrack/Patch-N_Epoch-Reborn) – map data for dungeon entrances, caverns and mines
+- [Brighter Nights](https://github.com/JosipPomer/epoch-brighter-nights) – brings Epoch's nights, about half as bright as WotLK stock, back to the WotLK stock level. Drop the ready-made `patch-X.MPQ` into `Data/`, or use the bundled Python script to build it from your own client at any level from 50 (Epoch) to 110 and to rebuild it after an Epoch update. `patch-X` is a letter nothing else here uses; a later-lettered patch that carries the same light tables overrides it.
 
 ### Client features
 
